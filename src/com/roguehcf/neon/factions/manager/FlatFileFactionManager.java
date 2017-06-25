@@ -3,9 +3,12 @@ package com.roguehcf.neon.factions.manager;
 import java.util.HashMap;
 import java.util.UUID;
 
+import org.bukkit.entity.Player;
+
 import com.roguehcf.neon.factions.FactionManager;
 import com.roguehcf.neon.factions.profile.FactionMember;
 import com.roguehcf.neon.factions.type.Faction;
+import com.roguehcf.neon.factions.type.PlayerFaction;
 
 public class FlatFileFactionManager implements FactionManager {
 
@@ -21,10 +24,8 @@ public class FlatFileFactionManager implements FactionManager {
 		return null;
 	}
 
-	@Override
-	public void createFaction(String factionName, FactionMember leader) {
-		// TODO Auto-generated method stub
-		
+	public void createFaction(String factionName, Player leader) {
+		PlayerFaction faction = new PlayerFaction(leader.getUniqueId(), factionName);
 	}
 
 	@Override
@@ -49,6 +50,14 @@ public class FlatFileFactionManager implements FactionManager {
 	public HashMap<UUID, Faction> getLoadedFactions() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	// Dont work on this.
+	@Override
+	public void createFaction(String factionName, FactionMember leader)
+	{
+		// TODO Auto-generated method stub
+		
 	}
 
 }

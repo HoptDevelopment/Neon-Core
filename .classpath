@@ -2,10 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="E:/Memory Stick/Development/Server/Neon/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/lombok-1.16.6.jar"/>
-	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/PermissionsEx-1.22.10.jar"/>
-	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Server/paperspigot.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/Depend/ProtocolLib.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

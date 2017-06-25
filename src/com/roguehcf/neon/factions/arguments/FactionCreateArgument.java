@@ -1,14 +1,40 @@
 package com.roguehcf.neon.factions.arguments;
 
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
+import com.roguehcf.neon.configuration.type.LocaleConfiguration;
 import com.roguehcf.neon.factions.struct.FactionArgument;
 import com.roguehcf.neon.factions.struct.Role;
+import com.roguehcf.neon.util.NeonStrings;
 
 public class FactionCreateArgument implements FactionArgument {
 
 	@Override
 	public void execute(CommandSender sender, String[] args) {
+		
+		if(!(sender instanceof Player)) {
+			sender.sendMessage(LocaleConfiguration.PLAYER_ONLY);
+			return;
+		}
+		
+		if(args.length == 1) {
+			sender.sendMessage(LocaleConfiguration.USAGE.replaceAll("\\{0\\}", getUsage()));
+			return;
+		}
+		
+		Player player = (Player) sender;
+		String name = args[1];
+		
+		if(!NeonStrings.isAlphanumeric(args[1])) {
+			sender.sendMessage(LocaleConfiguration.MUST_BE_ALPHANUMERIC);
+			return;
+		}
+		
+		if(name.length() > 16) {
+			sender.sendMessage(LocaleConfiguration.FACTION_NAME_LENGTH);
+			return;
+		}
 		
 	}
 

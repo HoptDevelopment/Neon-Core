@@ -88,6 +88,9 @@ public class LocaleConfiguration {
 				.replaceAll("<n>", "\n");
 	}
 	
+	public static String FACTION_NAME_LENGTH = C("&cThe faction name must be under 16 chars long");
+	public static String MUST_BE_ALPHANUMERIC = C("&cThe faction name must be alphanumeric.");
+	public static List<String> FACTION_HELP = new ArrayList<String>();
 	public static int AUTO_SAVE_DELAY = 120;
 	public static String PLAYER_OFFLINE = C("&cThat player is not online.");
 	public static List<String> COMMAND_HELP_TITLE = new ArrayList<String>(); 

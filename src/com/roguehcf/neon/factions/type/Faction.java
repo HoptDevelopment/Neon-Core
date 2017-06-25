@@ -5,7 +5,10 @@ import java.util.UUID;
 
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
+import com.roguehcf.neon.Neon;
+import com.roguehcf.neon.configuration.type.LocaleConfiguration;
 import com.roguehcf.neon.factions.claim.Claim;
 
 import lombok.Getter;
@@ -26,7 +29,7 @@ public abstract class Faction {
 	}
 	
 	public void printDetails(CommandSender sender) {
-		
+		sender.sendMessage(LocaleConfiguration.FACTION_DETAIL_LINE);
 	}
 	
 	public void loadFaction() { }

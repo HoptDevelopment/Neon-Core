@@ -88,6 +88,7 @@ public class LocaleConfiguration {
 				.replaceAll("<n>", "\n");
 	}
 	
+	public static String FACTION_DETAIL_LINE = C("&7&m---------------------------------------------------");
 	public static String FACTION_NAME_LENGTH = C("&cThe faction name must be under 16 chars long");
 	public static String MUST_BE_ALPHANUMERIC = C("&cThe faction name must be alphanumeric.");
 	public static List<String> FACTION_HELP = new ArrayList<String>();

@@ -1,15 +1,24 @@
 package com.roguehcf.neon.factions.manager;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.UUID;
 
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import com.roguehcf.neon.Neon;
 import com.roguehcf.neon.factions.FactionManager;
 import com.roguehcf.neon.factions.profile.FactionMember;
 import com.roguehcf.neon.factions.type.Faction;
 import com.roguehcf.neon.factions.type.PlayerFaction;
 
+import lombok.Getter;
+import net.md_5.bungee.api.ChatColor;
+
 public class FlatFileFactionManager implements FactionManager {
 
+	
 	@Override
 	public PlayerFaction getFactionByMember(FactionMember member) {
 		// TODO Auto-generated method stub
@@ -52,11 +61,9 @@ public class FlatFileFactionManager implements FactionManager {
 		UUID facUUID = UUID.randomUUID();
 		PlayerFaction faction = new PlayerFaction(facUUID, factionName, leader);
 	}
-
+	
 	@Override
 	public void loadFactions() {
-		// TODO Auto-generated method stub
 		
 	}
-
 }

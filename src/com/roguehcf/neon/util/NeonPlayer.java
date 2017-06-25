@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 
 import com.roguehcf.neon.Neon;
 import com.roguehcf.neon.cmds.StaffChatCommand;
+import com.roguehcf.neon.factions.profile.FactionMember;
 import com.roguehcf.neon.security.SecurityProfile;
 
 import lombok.Getter;
@@ -20,6 +21,7 @@ public class NeonPlayer {
 	
 	@Getter private Player player;
 	
+	private FactionMember factionMember;
 	private SecurityProfile securityProfile;
 	private boolean vanished;
 	
@@ -75,6 +77,13 @@ public class NeonPlayer {
 	
 	public boolean isScoreboardEnabled() {
 		return !(Neon.getInstance().getScoreboardDisabled().contains(player.getUniqueId()));
+	}
+	
+	public FactionMember getFactionMember() {
+		if(factionMember == null) {
+			factionMember = new FactionMember(player.getUniqueId());
+		}
+		return factionMember;
 	}
 	
 	private Method getHandleMethod;

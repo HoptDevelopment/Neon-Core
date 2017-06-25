@@ -27,16 +27,16 @@ public class FactionExecutor implements CommandExecutor {
 			return true;
 		}
 		
-		for(FactionArgument arguement : arguments) {
-			if(arguement.getName().equalsIgnoreCase(args[0])) {
-				if(arguement.getPermission() != null) {
-					if(commandSender.hasPermission(arguement.getPermission())) {
-						arguement.execute(commandSender, args);
+		for(FactionArgument argument : arguments) {
+			if(argument.getName().equalsIgnoreCase(args[0])) {
+				if(argument.getPermission() != null) {
+					if(commandSender.hasPermission(argument.getPermission())) {
+						argument.execute(commandSender, args);
 					} else {
 						commandSender.sendMessage(LocaleConfiguration.NO_PERM);
 					}
 				} else {
-					arguement.execute(commandSender, args);
+					argument.execute(commandSender, args);
 				}
 			}
 		}

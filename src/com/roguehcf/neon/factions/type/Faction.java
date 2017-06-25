@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.UUID;
 
 import org.bukkit.Location;
+import org.bukkit.command.CommandSender;
 
 import com.roguehcf.neon.factions.claim.Claim;
 
@@ -23,4 +24,11 @@ public abstract class Faction {
 		this.claims = new HashSet<>();
 		this.uuid = uuid;
 	}
+	
+	public void printDetails(CommandSender sender) {
+		
+	}
+	
+	public void loadFaction() { }
+	
 }

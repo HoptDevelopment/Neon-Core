@@ -1,0 +1,113 @@
+##### Plugin Name #####
+name: Neon
+##### Path to main class #####
+main: com.roguehcf.neon.Neon
+##### Plugin Version #####
+version: 1.0.0-BETA
+##### Plugin Author #####
+author: subbotted
+##### Plugin Description #####
+description: Completely custom HCF core by subbotted.
+
+##### Commands #####
+commands:
+  neon:
+    description: Information about NeonCore.
+    aliases: [neoncore, hcfcore, core]
+    permission: neon.command.neon
+  togglescoreboard:
+    description: Toggle your scoreboard visibility.
+    aliases: [tsb]
+    permission: neon.command.togglescoreboard
+  staffchat:
+    description: Talk to other staff members in a private channel.
+    aliases: [sc]
+    permission: neon.command.staffchat
+  list:
+    description: See the current online player count and staff members.
+    aliases: [online]
+    permission: neon.command.list
+  cobble:
+    description: Toggle whether you pickup cobblestone or not.
+    aliases: [cobblestone]
+    permission: neon.command.cobble
+  ores:
+    description: View yours/another players mining statistics.
+    aliases: [viewores]
+    permission: neon.command.ores
+  craft:
+    description: Open a crafting workbench.
+    permission: neon.command.craft
+  coords:
+    description: View important locations on the server.
+    aliases: [locations, coordinates, events]
+    permission: neon.command.craft
+  help:
+    description: Information on this server.
+    aliases: [?]
+    permission: neon.command.help
+  lives:
+    description: Manage your personal lives.
+    permission: neon.command.lives
+  deathban:
+    description: Manipulate deathbans.
+    permission: neon.command.lives
+  settings:
+    description: Manage your player settings in a easy-to-use GUI.
+    permission: neon.command.settings
+    aliases: [options]
+  revive:
+    description: Revive your friends using your donator rank.
+    permission: neon.command.revive
+    aliases: [donatorrevive, medic, juggernaut, friend]
+  sotw:
+    description: Toggle start-of-the-world mode.
+    permission: neon.command.sotw
+    aliases: [startoftheworld]
+  mod:
+    description: Toggle your moderator mode.
+    permission: neon.command.mod
+    aliases: [h, staff]
+  chat:
+    description: Manage the server chat.
+    permission: neon.command.chat
+    aliases: [mutechat, lockchat, slowchat]
+  smelt:
+    description: Smelt all of your ores.
+    permission: neon.command.smelt
+    aliases: [autosmelt, smeltores]
+  login:
+    description: Log-in to the server.
+    permission: neon.command.login
+    aliases: [pin, signin]
+  setpass:
+    description: Set your password.
+    permission: neon.command.setpass
+    aliases: [register, setpin]
+  ping:
+    description: Check your connection to the server.
+    permission: neon.command.ping
+    aliases: [p]
+  vanish:
+    description: Toggle your vanish.
+    permission: neon.command.vanish
+    aliases: [v]
+  nightvision:
+    description: Toggle night vision.
+    permission: neon.command.nightvision
+    aliases: [nv]
+  crowbar:
+    description: Give yourself a crowbar which can be used to mine mob spawners and end portal frames.
+    permission: neon.command.crowbar
+    aliases: [crow, crowgive]
+  miner:
+    description: View the miner class upgrades available with information on the effects and diamonds required.
+    permission: neon.command.miner
+    aliases: [minerclass, mining]
+    
+##### Permissions (non-command perms) #####
+permissions:
+  neon.staff:
+    description: Staff Member. This permission is used for showing staff scoreboard and appearing on /list.
+  neon.command.mod.toggle:
+    description: Access to toggle moderator mode. If a staff member doesn't have this they will be locked in mod mode.

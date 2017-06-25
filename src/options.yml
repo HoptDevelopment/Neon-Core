@@ -1,0 +1,37 @@
+##### Timers #####
+
+timers:
+  combat_tag: 45s
+  enderpearl: 16s
+  pvp_timer: 30m
+  gapple: 5s
+  gopple: 2h
+  bard_effect: 5s
+  f_stuck: 2m
+  
+##### Broadcast #####
+
+enable-donator-broadcast: true
+broadcast-every-x-seconds: 120
+
+##### Enchant Limits #####
+enchant_limits:
+  PROTECTION_ENVIRONMENTAL: 2
+  
+##### Deathbans #####
+deathbans:
+  default:
+    time: 120
+  vip:
+    time: 75
+  mvp:
+    time: 50
+  neon:
+    time: 20
+  insider:
+    time: 240
+    
+##### Security #####
+enable-security: true
+
+##### Mail Account #####

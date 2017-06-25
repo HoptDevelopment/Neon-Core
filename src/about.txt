@@ -1,0 +1,26 @@
+Thank-you for purchasing Neon by subbotted.
+
+TERMS AND CONDITIONS:
+\-=-/ Break these T&C's and you risk your copy being disabled and being reported/banned on MC-Market \-=-/
+
+1. Use of product
+	1.1 You agree to not decompile/modify/edit the code in any way, shape or form. (unless given permission to do so)
+	1.2 You agree to not redistribute/resell/leak in any way, shape or form. (unless given permission to do so)
+2. Payment
+	2.1 You agree to pay the price stated on the thread via PayPal "Friends and Family" (F&F) to http://paypal.me/HCFCore
+	2.2 You agree to not charge-back after payment.
+3. Use of source code (if applicable)
+	3.1 You agree to only give source code to developers you trust. You will be hold accountable if a developer leaks the product.
+	3.2 You agree to ask the original developer (subbotted) if you wish to re-sell your version of Neon.
+4. General
+	4.1 You agree to follow these T&C's as well as the T&C's described in my signature on MC-Market.org
+	4.2 You agree for the following information to be collected about your server for antileak purposes:
+		- Server IP & Port
+		- Plugin List
+		- Neon Scoreboard Title
+		- Neon Configuration Values
+		- List of operators
+		- Player count
+	4.3 You agree that the plugin developer is only obliged to support you with the plugin for 24 hours after purchase.
+	4.4 You agree that you are only under warranty/the product is refundable for 24 hours after purchase.
+

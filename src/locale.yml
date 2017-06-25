@@ -1,0 +1,300 @@
+##### Basic Messages #####
+player_only: '&cThis command can only be executed by a player.'
+invalid_usage: '&cCorrect Usage: {0}'
+player_offline: '&cThat player is not online.'
+no_permission: '&cYou do not have permission to use/execute this command.'
+
+##### Scoreboard #####
+scoreboard_toggled: '&eYour scoreboard visibility is now set to &r{0}&e.'
+
+##### Staff Chat #####
+staff_chat: '&eYou are &r{0} &ein staff chat.'
+staff_chat_format: '&6[Staff] &e{0}&8: &7{1}'
+
+##### Vanish #####
+vanish: '&eYou have &r{0} &evanished.'
+
+##### Join Message #####
+join_lines:
+  - '&7&m---------------------------------------------------'
+  - '&9&lYour Server Name &7- &eWelcome!'
+  - ' &7» &eWebsite&7: &cwww.yourserver.com'
+  - ' &7» &eStore&7: &cstore.yourserver.com'
+  - ' &7» &eTeamSpeak&7: &cts.yourserver.com'
+  - ''
+  - ' &7» &eMap Number&7: &c1'
+  - ' &7» &eWarzone Until&7: &c1000'
+  - ' &7» &eMap Kit&7: &cProtection I, Sharpness I, Power IV'
+  - '&7&m---------------------------------------------------'
+  
+##### Command Help #####
+command_help_title:
+  - '&7&m---------------------------------------------------'
+  - '&9&lCommand Help &7- &e{0}'
+  - '&7&m---------------------------------------------------'
+command_help_entry: '&9/{0} &7- &e{1}'
+
+##### Server Information (/help) #####
+help_lines:
+  - '&7&m---------------------------------------------------'
+  - '&9&lYour Server Help &7- &eInformation on Your Server'
+  - '&7&m---------------------------------------------------'
+  - '&9Map Information:'
+  - '&eCurrent Map: &7HCF Map 1 - Started 1/1/1970'
+  - '&eMap Border: &75000'
+  - '&eWarzone Until: &71000'
+  - '&eEnd Portals: &72500, 2500 in each quadrant'
+  - '&eEnchant Limits: &7Protection 2, Sharpness 2, Power 4'
+  - ''
+  - '&9Helpful Commands:'
+  - '&e/report <player> <reason> &7- Report cheaters with this command!'
+  - '&e/request <message> &7- Request staff assistance.'
+  - ''
+  - '&9Other Information:'
+  - '&eOfficial Teamspeak &7- &dts.yourserver.com'
+  - '&eYourServer Rules &7- &dwww.yourserver.com/rules'
+  - '&eStore &7- &dstore.yourserver.com'
+  - '&7&m---------------------------------------------------'
+  
+##### Timers #####
+timer_started: '&eYour &r{0} &etimer has &a&lbegun&e.'
+timer_expired: '&eYour &r{0} &etimer has &c&lexpired&e.'
+still_on_timer: '&eYou are still on a &r{0} &efor another &c{1}&e!'
+
+##### Blacklist #####
+blacklist_broadcast: '&c{0} &7has been &4&lblacklisted &7by &c{1}&7.'
+blacklist_kick: '&cYou are blacklisted from the Neon Network.<n>&7This is an un-appealable punishment issued by an administrator.'
+
+##### Cobblestone #####
+cobble_command: '&eYou can &r{0} &epickup cobblestone'
+
+##### Coordinates #####
+coords:
+  - '&7&m---------------------------------------------------'
+  - '&9&lYour Server Name &7- &eCoordinates'
+  - '&7&m---------------------------------------------------'
+  - '&9Koths:'
+  - '&eMayhem: &7500, 500'
+  - '&eHill: &7-500, 500'
+  - '&eConquest: &7-500, -500'
+  - '&eNightmare: &7500 -500'
+  - ''
+  - '&9Other Locations:'
+  - '&eGlowstone Mountain: &7250, 250 &8(Nether)'
+  - '&eSpawn: &70, 0'
+  - '&7&m---------------------------------------------------'
+  
+##### /craft #####
+craft_workbench_opened: '&eYou have opened your crafting workbench.'
+
+##### End World Management #####
+end_world_entrance_set: '&eYou have set the entrance of the end world to your location.'
+end_world_exit_set: '&eYou have set the exit of the end world to your location.'
+end_world_must_be_end: '&eYou must set this location only in the end.'
+end_world_must_be_overworld: '&eYou must set this location only in the overworld.'
+
+##### Freeze #####
+freeze_frozen_player: '&cYou have frozen the player &4{0}'
+freeze_unfrozen_player: '&aYou have unfrozen the player &2{0}'
+freeze_message_to_player:
+  - '&4&m---------------------------------------------------'
+  - '            &4&lYou have been frozen'
+  - '              &eJoin TS @ ts.meme.co'
+  - '&4&m---------------------------------------------------'
+  
+##### List Message #####
+list_message:
+  - '&7&m---------------------------------------------------'
+  - '&eThere is currently &a{0} &eout of &a{1} &eplayers online.'
+  - ' &aOnline Staff: &7{2}'
+  - '&7&m---------------------------------------------------'
+  
+##### Deathbans and Lives #####
+staff_lives_revived: '&eYou have revived the player &6{0}'
+player_lives_revived: '&eYou have used a life to revive the player &6{0}'
+player_lives_sent: '&eYou have sent &6{0} &e{1}x lives.'
+lives_check: '&e{0} has {1} lives.'
+not_enough_lives: '&eYou have not got enough lives to do this.'
+restore_inventory_restored: '&eYou have restored &6{0}&e''s inventory.'
+restore_inventory_player_msg: '&6{0} &ehas restored your inventory.'
+not_deathbanned: '&cThat player is not deathbanned.'
+deathban_kick: '&cYou are still deathbanned for another {0}'
+deathban_info:
+  - '&7&m---------------------------------------------------'
+  - '&9&lDeathban Information &7- &9{0}'
+  - '&7&m---------------------------------------------------'
+  - ' &9Deathbanned by&7: &r{1}'
+  - ' &9Deathbanned on&7: &r{2}'
+  - ' &9Deathban expiry&7: &r{3}'
+  - ' &9Deathbanned in territory of&7: &r{4}'
+  - '&7&m---------------------------------------------------'
+deathban_restored_inventory: '&aSuccessfully restored inventory of the player &2{0}&a.'
+deathban_viewing_inventory: '&eYou are viewing the inventory of the player &6{1} &eat the time of their deathban.'
+donator_revive_broadcast: '&6&l{0} &ehas revived their friend &c&l{1} &eusing their &5&lNeon &erank.'
+
+##### Map Kit #####
+map_kit_command: '&eMap Kit: &7Protection I, Sharpness I, Power IV'
+
+##### Moderator Mode #####
+mod_toggled: '&eYou are now &r{0} in moderator mode.'
+mod_cant_toggle: '&cYou are locked in moderator mode.'
+mod_toggled_for_other: '&6{0} &eis &r{1} &ein moderator mode.'
+mod_joined_in_mod: '&eYou have joined in moderator mode.'
+
+##### Night Vision #####
+night_vision: '&eYou have &r{0} &eyour night vision perk.'
+
+##### Player Ores #####
+ores:
+  - '&7&m---------------------------------------------------'
+  - '&9&lOres Statistics of {0}'
+  - '&7&m---------------------------------------------------'
+  - '&bDiamonds: &7{1}'
+  - '&aEmerald: &7{2}'
+  - '&cRedstone: &7{3}'
+  - '&8Iron: &7{4}'
+  - '&0Coal: &7{5}'
+  - '&6Gold: &7{6}'
+  - '&9Lapis: &7{7}'
+  - '&7&m---------------------------------------------------'
+  
+##### Pickaxe stats #####
+pickaxe_show_stats:
+  enabled: true
+  lines:
+    - '&7&m---------------------------------------------------'
+    - '&9&lOres Statistics of {0}'
+    - '&7&m---------------------------------------------------'
+    - '&bDiamonds: &7{1}'
+    - '&aEmerald: &7{2}'
+    - '&cRedstone: &7{3}'
+    - '&8Iron: &7{4}'
+    - '&0Coal: &7{5}'
+    - '&6Gold: &7{6}'
+    - '&9Lapis: &7{7}'
+    - '&7&m---------------------------------------------------'
+    
+##### Ping #####
+ping_message: '&eYou are connected to the server with a ping of &a{0} &ems.'
+ping_other_message: '&6{0}&e is connected to the server with a ping of &a{1} &ems.'
+
+##### Report #####
+report_message_to_player: '&aYou have reported {0} and all staff have been alerted.'
+report_message_to_staff: '&4[Staff] &a[Report] &c{0} &7reported &c{1} &7for &r{2}'
+
+##### Rules #####
+rules:
+  - '&7&m---------------------------------------------------'
+  - '&9&lYour Server &7- &eRules and Guidelines'
+  - '&7&m---------------------------------------------------'
+  - '&4&l1. &eDo not DDoS &7- &c[Perm Ban]'
+  - '&e&oConfigure this message in &alocale.yml&e&o.'
+  - '&7&m---------------------------------------------------'
+
+##### Request #####
+request_message_to_player: '&aYour message has been received.'
+request_message_to_staff: '&2[Request] &a{0}&7: &r{1}'
+
+##### PvP Timer #####
+cant_attack_pvp_protected: '&eYou cannot attack &c&l{0} &ebecause they are currently under PvP Protection.'
+
+##### SOTW #####
+sotw_started: '&a&lSOTW &ahas started for a period of &l{0}&a.'
+sotw_ended: '&a&lSOTW &ahas &lended&a. &c&lPVP IS NOW ENABLED!'
+sotw_cannot_hit: '&cYou may not attack players during SOTW.'
+
+##### XP Bottling #####
+xp_bottled: '&eYou have bottled &a&l{0} xp &einto a xp bottle.'
+
+##### /smelt Command #####
+smelt_msg: '&eYou have smelted all of your iron/gold ores into ingots.'
+
+##### Settings Command #####
+title: '&eYour Player Settings'
+global_chat: '&aGlobal Chat'
+private_msg: '&cPrivate Messages'
+found_diamonds: '&b[FD] Alerts'
+status: '&eStatus: &r{0}'
+
+##### Xray Catcher #####
+xray_staff_broadcast: '&8[&4XRAY&8] &a{0} &eis possibly xraying. &7(&b{0} diamonds&7)'
+xray_alerts_toggled: '&eYou have toggled your xray alerts to: &r{0}'
+
+##### Auto-Save #####
+auto_save_delay_seconds: 120
+auto_save_broadcast:
+  - '&eAuto-saving data!'
+  - '&7This may take a few seconds...'
+  
+##### PvP Classes #####
+used_buff: '&eYou have used the bard buff &a{0} &ecosting you &6{1} &eenergy.'
+current_energy: '&bEnergy: &r{0}'
+equipped_class: '&aYou have equipped the {0} class.'
+unequipped_class: '&cYou have unequipped the {0} class.'
+
+##### PlayTime #####
+play_time_other_message: '&6{0} &ehas been playing the server for &b{1}'
+play_time_message: '&eYou have been playing the server for &b{0}.'
+
+##### Chat Control #####
+toggled_chat_mode: '&cChat &6> &7The server chat status has been changed to: &c{0}&7!.'
+
+##### Security #####
+incorrect_password: '&cThe password you entered is incorrect.'
+password_dont_match: '&cThe passwords you entered do not match.'
+password_too_short: '&cPasswords must be at least {0} characters long.'
+password_too_simple: '&cPassword is too simple. Add at least one special character, uppercase letter or number.'
+must_register: '&eYou have not set a password yet. Please do /register [password] [confirmPassword] or you may be demoted.'
+attempted_to_connect: '&c{0} attempted to connect to the server whilst the account was still online. This may be a griefer attempting to connect on a staff account.'
+logged_on_with_new_ip: '&eWe see you have logged on with another IP. Please connect to our TeamSpeak and get an admin to confirm your identity. You cannot log in unless you do so.'
+logged_on_with_new_ip_mail: '&eWe see you have logged on with another IP. Please confirm this is you by checking your email for an automated message.'
+
+##### Moderator Mode #####
+cant_attack:
+  staff: '&cYou cannot attack players who are in staff mode.'
+  player: '&cYou cannot attack players whilst in staff mode.'
+entered_moderator_mode:
+
+##### Miner Class #####
+miner_upgraded: '&a{0} &ehas mined a total of &b{1} diamonds &eand has been upgraded to the miner class &r{2}&e!'
+miner_command:
+  - '&7&m---------------------------------------------------'
+  - '&6&lMiner Upgrades'
+  - '&7&m---------------------------------------------------'
+  - '&6Basic Miner'
+  - ' &eDiamonds &6» &r250'
+  - ' &eEffects &6» &rSpeed I'
+  - '&6Regular Miner'
+  - ' &eDiamonds &6» &r500'
+  - ' &eEffects &6» &rSpeed 1, Haste 3, Saturation 1'
+  - '&6Advanced Miner'
+  - ' &eDiamonds &6» &r1000'
+  - ' &eEffects &6» &rSpeed 2, Resistance 1, Haste 3, Saturation 1'
+  - '&6Expert Miner'
+  - ' &eDiamonds &6» &r1500'
+  - ' &eEffects &6» &rSpeed 2, Resistance 1, Haste 4, Saturation 2'
+  - '&6Adempt Miner'
+  - ' &eDiamonds &6» &r2000'
+  - ' &eEffects &6» &rSpeed 2, Resistance 2, Haste 4, Saturation 3'
+  - '&7&m---------------------------------------------------'
+on_mine: '&eYou have mined a &bDiamond Ore&e. You have to mine &b{0} diamonds &ebefore you reach the next level.'
+
+##### LFF #####
+lff_broadcast:
+- '&7&m---------------------------------------------------'
+- ''
+- '&a{0} &eis currently LFF.'
+- '&7Do /lff info {0} to view more information about this player.'
+- ''
+- '&7&m---------------------------------------------------'
+lff_info:
+  - '&7&m---------------------------------------------------'
+  - '&eLFF details of player &a{0}'
+  - '&7&m---------------------------------------------------'
+  - ' &eContact &6 &r{1}'
+  - ' &eDescription &6 &r{2}'
+  - '&7&m---------------------------------------------------'
+
+##### Panic #####
+panic_mode: '&eYou have entered panic mode and been frozen. An administrator will be with you shortly.'
+panic_mode_admin: '&c[PANIC] &a{0} &ehas entered &4PANIC MODE&e. Please teleport to them using &a/tp {0}&e.'

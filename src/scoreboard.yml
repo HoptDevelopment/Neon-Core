@@ -1,0 +1,33 @@
+title: '&5&lNeonCore &7[Map 1]'
+line: '&7&m-------------------------'
+bottomtext:
+  enabled: true
+  text:
+    - '&7&m-------------------------'
+    - '&dwww.roguehcf.com/neon'
+staff:
+  staff_board:
+    - '&eModerator Mode &6»'
+    - '&6» &eVisibility&7: %visibility%'
+    - '&6» &eGameMode&7: %gamemode%'
+    - '&6» &eChat&7: %chatmode%'
+entries:
+  format: "{0} &6» &r{1}"
+displaynames:
+  enderpearl: "&9Enderpearl"
+  combat_tag: "&cSpawn Tag"
+  gopple: "&6God Apple"
+  gapple: "&eGolden Apple"
+  logout: "&4Logout"
+  stuck: "&9Stuck"
+  teleport: "&aTeleport"
+  sotw: "&aSOTW"
+  koth: "&9{0}"
+  immunity: "&aImmunity"
+  dtc: "&5{0}"
+  equipped_class: '&6Active Class'
+  bard_energy: ' &eEnergy'
+  bard_delay: ' &eDelay'
+  archer_speed_delay: ' &eSpeed'
+  revive: '&dRevive'
+sotw_scoreboard: '&a&lSOTW &aends in &l{0}'

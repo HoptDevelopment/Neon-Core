@@ -41,8 +41,8 @@ public enum MinerLevel {
 		return this.diamondsNeeded;
 	}
 	
-	//public static MinerLevel getMinerLevel(int diamondsMined) {
-		
-	//}
+	public boolean isApplicableFor(int dmined) {
+		return this.getAmount() <= dmined && this.getNextLevel().getAmount() > dmined;
+	}
 	
 }

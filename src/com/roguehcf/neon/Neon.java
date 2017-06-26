@@ -35,6 +35,7 @@ import com.roguehcf.neon.deathban.commands.DeathbanCommand;
 import com.roguehcf.neon.deathban.commands.LivesCommand;
 import com.roguehcf.neon.donator.DonatorBroadcastTask;
 import com.roguehcf.neon.event.listeners.EntityDamageByEntityListener;
+import com.roguehcf.neon.factions.FactionExecutor;
 import com.roguehcf.neon.factions.FactionManager;
 import com.roguehcf.neon.factions.manager.FlatFileFactionManager;
 import com.roguehcf.neon.listener.JoinQuitListener;
@@ -52,6 +53,7 @@ import com.roguehcf.neon.util.NeonServer;
 import com.roguehcf.neon.util.ServerUtils;
 
 import lombok.Getter;
+import redis.clients.jedis.JedisPool;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -68,12 +70,17 @@ public class Neon extends JavaPlugin {
 	@Getter private String craftBukkitVersion; /* For reflection if needed */
 	@Getter private ScoreboardWrapper scoreboardWrapper;
 	@Getter private FactionManager factionManager;
-	
 	@Getter private static Neon instance;
+	public static JedisPool pool;
 
 	public void onEnable() {
-		
 		instance = this;
+		
+		try{
+			pool = new JedisPool("localhost");
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		saveResource("locale.yml", false);
 		saveResource("scoreboard.yml", false);
@@ -124,7 +131,7 @@ public class Neon extends JavaPlugin {
 		getCommand("miner").setExecutor(new MinerCommand());
 		getCommand("nv").setExecutor(new NightVisionCommand());
 		getCommand("smelt").setExecutor(new SmeltCommand());
-		
+				
 		ModCommand modCommand = new ModCommand();
 		modCommand.setupItems();
 		modCommand.startVanishUpdateTask(this);
@@ -154,7 +161,7 @@ public class Neon extends JavaPlugin {
 	
 	@Override
 	public void onDisable(){
-		
+		pool.close();
 	}
 	
 	public void registerRunnables(){

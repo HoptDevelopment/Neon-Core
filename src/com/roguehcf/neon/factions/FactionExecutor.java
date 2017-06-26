@@ -5,14 +5,10 @@ import java.util.ArrayList;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 import com.roguehcf.neon.configuration.type.LocaleConfiguration;
 import com.roguehcf.neon.factions.arguments.FactionShowArgument;
 import com.roguehcf.neon.factions.struct.FactionArgument;
-import com.roguehcf.neon.factions.type.Faction;
-import com.roguehcf.neon.util.CommandArgument;
-
 import net.md_5.bungee.api.ChatColor;
 
 public class FactionExecutor implements CommandExecutor {

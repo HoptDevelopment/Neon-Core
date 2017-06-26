@@ -5,9 +5,7 @@ import java.util.UUID;
 
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
-import com.roguehcf.neon.Neon;
 import com.roguehcf.neon.configuration.type.LocaleConfiguration;
 import com.roguehcf.neon.factions.claim.Claim;
 

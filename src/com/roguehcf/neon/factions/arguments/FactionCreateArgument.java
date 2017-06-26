@@ -3,9 +3,11 @@ package com.roguehcf.neon.factions.arguments;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import com.roguehcf.neon.Neon;
 import com.roguehcf.neon.configuration.type.LocaleConfiguration;
 import com.roguehcf.neon.factions.struct.FactionArgument;
 import com.roguehcf.neon.factions.struct.Role;
+import com.roguehcf.neon.util.NeonPlayer;
 import com.roguehcf.neon.util.NeonStrings;
 
 public class FactionCreateArgument implements FactionArgument {
@@ -24,6 +26,7 @@ public class FactionCreateArgument implements FactionArgument {
 		}
 		
 		Player player = (Player) sender;
+		NeonPlayer np = NeonPlayer.getByPlayer(player);
 		String name = args[1];
 		
 		if(!NeonStrings.isAlphanumeric(args[1])) {
@@ -35,6 +38,18 @@ public class FactionCreateArgument implements FactionArgument {
 			sender.sendMessage(LocaleConfiguration.FACTION_NAME_LENGTH);
 			return;
 		}
+		
+		if(Neon.getInstance().getFactionManager().getFactionByMember(np.getFactionMember()) != null) {
+			sender.sendMessage("in faction");
+			return;
+		}
+		
+		/*TODO : Check if faction with name already exists */
+		
+		/*create faction*/
+		Neon.getInstance().getFactionManager().createFaction(name, np.getFactionMember());
+		
+		
 		
 	}
 

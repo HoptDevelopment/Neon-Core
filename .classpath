@@ -2,10 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/lombok-1.16.6.jar"/>
-	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/paperspigot.jar"/>
-	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/PermissionsEx-1.23.3.jar"/>
-	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/ProtocolLib.jar"/>
-	<classpathentry kind="lib" path="C:/Development/Plugins.rar/Plugins.rar/neon/Vault.jar"/>
+	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/lombok-1.16.6.jar"/>
+	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/paperspigot-1.7.10-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/PermissionsEx-1.22.10.jar"/>
+	<classpathentry kind="lib" path="E:/Memory Stick/Development/Workspace/NeonCore [Rogue]/Dependencies/ProtocolLib.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
